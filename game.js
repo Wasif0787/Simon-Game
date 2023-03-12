@@ -8,11 +8,12 @@ var started = false;
 var level = 0;
 var highScore=0;
 var prev=highScore;
-$(document).keypress(function () {
+$(".start").click(function () {
     if (!started) {
         $("#level-title").text("Level " + level);
         nextSequence();
         started = true;
+        $("button").hide();
     }
 });
 
