@@ -1,0 +1,72 @@
+body {
+  text-align: center;
+  background-color: #FDD36A;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.main {
+  margin: 1.5rem;
+  border: 14px dotted;
+  border-color: #FF7B54;
+}
+.social-icon {
+  margin: 20px 10px;
+}
+#level-title {
+  background-color: #B99B6B;
+  font-family: 'Play', sans-serif;
+  font-size: 3rem;
+  margin: 5%;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.highScore {
+  font-family: 'Play', sans-serif;
+  font-size: 2rem;
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: red;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
